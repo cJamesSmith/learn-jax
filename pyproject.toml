@@ -5,6 +5,15 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.10"
 dependencies = [
+    "flax>=0.10.2",
+    "ipython>=8.30.0",
     "jax[cuda12]>=0.4.35",
     "jupyter>=1.1.1",
+    "matplotlib>=3.9.3",
+    "numpy>=2.2.0",
+    "optax>=0.2.4",
+    "seaborn>=0.13.2",
+    "torch>=2.5.1",
+    "torchvision>=0.20.1",
+    "tqdm>=4.67.1",
 ]
