@@ -17,3 +17,6 @@ dependencies = [
     "torchvision>=0.20.1",
     "tqdm>=4.67.1",
 ]
+
+[tool.ruff.format]
+quote-style = "single"
